@@ -27,13 +27,6 @@ int isFull(struct queue*q){
         return 1;
     }
     else return 0;
-    //  if((q->r+1)%q->size==q->f){
-    //     printf("Queue is FULL\n");
-    // }
-    // else {
-    //     q->r=(q->r+1)%q->size;
-    //     q->arr[q->r]=data;
-    // }
 }
 int dequeue(struct queue*q){
 

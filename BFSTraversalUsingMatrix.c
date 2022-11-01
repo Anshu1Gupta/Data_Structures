@@ -83,7 +83,6 @@ void DFS(int i){
    
     }}
 
-int main(){
-//  BFS(1);
+int main(){//  BFS(1);
  DFS(1);
 }
