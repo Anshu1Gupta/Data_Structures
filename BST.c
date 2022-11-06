@@ -132,7 +132,7 @@ return p;
 //Searching in Binary Tree
 int Search(struct node* t,int key){
     
-       N if(t==NULL){
+        if(t==NULL){
         return -1;
 
     }
