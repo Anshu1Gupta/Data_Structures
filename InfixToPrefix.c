@@ -55,7 +55,7 @@ int precedence(char c){
     if(c=='+'||c=='-'){
         return 2;
     }
-    else if(c=='*'||c=='/'){
+    else if(c=='*'||c=='/'||c=='%'){
         return 3;
     }
     else{
@@ -160,6 +160,6 @@ printf("\n The answer we got after evaluation of the above postfix is :%.2lf",ev
 
 
 int main(){
-      char *str="4*4+(8/8/9)";
+      char *str="4*4%2+9";
       IntoPo(str);
 }

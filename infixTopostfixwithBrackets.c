@@ -122,4 +122,6 @@ int main(){
     
 char *q="a*(b+g)";
 infixToPostfix(q);
+
+
 }

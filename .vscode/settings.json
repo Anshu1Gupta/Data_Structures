@@ -1,1 +1,6 @@
-{}
+{
+    "files.associations": {
+        "*.module": "php",
+        "REVISION.C": "cpp"
+    }
+}

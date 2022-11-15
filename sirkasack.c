@@ -14,8 +14,9 @@ void main()
                 {while(stack[top]!='(')    { pe[j++]=pop(stack, top); }  // Assume the given infix expression is parenthesis balanced one
 	    pop();  }
                else  // if it is an operator
-	{  while(top > -1 &&  (prio(stack[top])>=prio(ie[i]) )
-    {pe[j++]=pop();}
+	{  while(top > -1 &&  (prio(stack[top])>=prio(ie[i]) ))
+    {
+      pe[j++]=pop();}
                      push(ie[i]); }
        }
     while(top>-1)     {pe[j++]=pop(); } // Leftover symbols from the stack are popped  
